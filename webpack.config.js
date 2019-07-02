@@ -15,5 +15,10 @@ module.exports = {
                 loader: "sass-loader",
             }]
         }]
+    },
+    watch: true,
+    devServer: {
+        contentBase: __dirname + '/docs',
+        port: 9000
     }
 };
