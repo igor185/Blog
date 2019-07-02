@@ -1,6 +1,6 @@
 .content-wrp {
   width: $content;
-  margin: 5px auto;
+  margin: 2% auto;
   display: grid;
   grid-template-areas:
           "content aside1"
@@ -8,6 +8,7 @@
   grid-template-columns: 1fr 200px;
   grid-template-rows: 100px;
   grid-gap: 20px;
+  background-color: white;
 }
 
 .main {

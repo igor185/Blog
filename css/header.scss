@@ -1,7 +1,8 @@
 @import "burger";
 header {
   width: 100%;
-  background-color: #4c8c4a;
+  background-color: #4671fb;
+  background-image: -webkit-gradient(linear,left top,right top,color-stop(0%,#194be4),color-stop(50%,#6b8efb),color-stop(100%,#194be4));
 }
 
 .header-wrp {
