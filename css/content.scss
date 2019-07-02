@@ -2,8 +2,11 @@
   width: $content;
   margin: 5px auto;
   display: grid;
-  grid-template-areas: "content aside1" "content aside2";
+  grid-template-areas:
+          "content aside1"
+          "content aside2";
   grid-template-columns: 1fr 200px;
+  grid-template-rows: 100px;
   grid-gap: 20px;
 }
 
@@ -17,3 +20,17 @@
 
 @import "card.scss";
 @import "aside.scss";
+
+@media (max-width: $small-width) {
+  .content-wrp{
+    width: 100%;
+    grid-template-areas:
+            "aside1"
+            "content"
+            "aside2";
+    grid-template-columns: 1fr;
+  }
+  .aside1{
+    margin: 0 auto;
+  }
+}
