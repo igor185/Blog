@@ -1,32 +1,40 @@
 
-header{
+header {
   width: 100%;
   background-color: #4c8c4a;
 }
 
-.header-wrp{
-  width:$content;
+.header-wrp {
+  width: $content;
   margin: 0 auto;
   max-width: $max-width;
   display: flex;
   justify-content: space-between;
 }
 
-.main_logo{
+.main_logo {
   width: 125px;
 }
 
-.nav-wrp{
+.nav-wrp {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  .logo:first-child {
+    margin-right: 20px;
+  }
 }
 
-.menu-wrp{
-  ul{
+.menu-wrp {
+  ul {
     display: flex;
+    justify-content: space-between;
+    color: white;
   }
-  li{
+
+  li {
     list-style-type: none;
   }
 }
+
