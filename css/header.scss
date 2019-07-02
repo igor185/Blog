@@ -20,7 +20,8 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
+}
+.icons-wrp{
   .logo:first-child {
     margin-right: 20px;
   }
@@ -35,6 +36,23 @@ header {
 
   li {
     list-style-type: none;
+  }
+}
+@import "burger";
+
+
+@media (max-width: $small-width) {
+  .menuToggle{
+    display: block;
+  }
+  .nav-wrp{
+    display: none;
+  }
+  .logo-wrp{
+    margin: 0 auto;
+  }
+  .searchBtn{
+    display: block;
   }
 }
 
