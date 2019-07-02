@@ -29,20 +29,17 @@
   }
 }
 
-.card-logo:hover{
-
-}
-
 .card-header{
   text-align: center;
 }
 .card-time {
   color: grey;
   font-size: 0.75em;
+
 }
 
 .card-prev{
-  font-size: .9em;
+  font-size: .8em;
   padding: 3px;
   box-sizing: border-box;
 }
@@ -55,4 +52,14 @@
     width: 1em;
     height: 1em;
   }
+}
+.card:hover{
+  background-color: gray;
+  color: white;
+  .card-time, .rate{
+    color: white
+  }
+}
+.card-prev:hover, .card-header:hover{
+  text-decoration: underline;
 }
