@@ -1,3 +1,24 @@
-*{
-  margin:0;
+@import "reset.css";
+
+$max-width: 1200px;
+$content: 80%;
+$content-color: #7bbd77;
+
+@import 'header';
+
+@import "content";
+
+@import "footer";
+
+body{
+  font-family: Helvetica, serif;
 }
+.logo {
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+}
+//
+//.logo:first-child {
+//  margin-right: 20px;
+//}
