@@ -1,5 +1,5 @@
 .subscription {
-  margin-top: 15px;
+  margin-top: $margin-top;
   display: grid;
   grid-template-areas: "label-name" "input-name" "label-email" "input-email" "submit";
   grid-template-columns: 1fr;
@@ -27,6 +27,23 @@
 .submit {
   grid-area: submit;
 }
+.search{
+  margin-top:$margin-top;
+  display: grid;
+  grid-template-areas: "label" "input" "btn";
+  grid-gap: 5px;
+}
+.label-search{
+  grid-area: label;
+  text-align: center;
+}
+.searchInput{
+  grid-area: input;
+}
+.btn-search{
+  grid-area: btn;
+}
+
 
 
 .btn {

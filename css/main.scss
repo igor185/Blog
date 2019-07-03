@@ -19,10 +19,11 @@ body{
   width: 25px;
 }
 .logo:hover{
-  background-color: darkblue;
+  background-color: blue;
+  opacity: .5;
 }
 .shadow {
-  padding: 1%;
+  padding: 5%;
   box-sizing: border-box;
   box-shadow: 0 0 3px 1px #dddddd;
 }
