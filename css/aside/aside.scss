@@ -1,44 +1,29 @@
 .aside1{
   grid-area:aside1;
+  padding: 1%;
+  box-shadow: 0 0 3px 1px #dddddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .aside2{
   grid-area:aside2;
+  padding: 1%;
+  font-size: 90%;
 }
+
 .profile-description{
   display: block;
 }
-
-
-.subscription{
-  margin-top: 15px;
-  display: grid;
-  grid-template-areas: "label"
-  "label-name"
-  "input-name"
-  "label-email"
-  "input-email"
-  "submit";
-  grid-template-columns: 1fr;
-  grid-gap: 5px;
+.contacts-wrp{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  img{
+    margin: 0 5px;
+  }
 }
-.label{
-  grid-area: label;
-}
-.label-name{
-  grid-area: label-name;
-}
-.input-name{
-  grid-area:input-name;
-}
-.label-email{
-  grid-area:label-email;
-}
-.input-email{
-  grid-area:input-email;
-}
-.submit{
-  grid-area:submit;
-}
-
+@import "form";
 @import "tag";
 @import "comment";

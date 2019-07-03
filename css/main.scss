@@ -21,3 +21,8 @@ body{
 .logo:hover{
   background-color: darkblue;
 }
+.shadow {
+  padding: 1%;
+  box-sizing: border-box;
+  box-shadow: 0 0 3px 1px #dddddd;
+}

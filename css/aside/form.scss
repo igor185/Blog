@@ -1,0 +1,53 @@
+.subscription {
+  margin-top: 15px;
+  display: grid;
+  grid-template-areas: "label-name" "input-name" "label-email" "input-email" "submit";
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+}
+
+.label-name {
+  grid-area: label-name;
+  text-align: center;
+}
+
+.input-name {
+  grid-area: input-name;
+}
+
+.label-email {
+  grid-area: label-email;
+  text-align: center;
+}
+
+.input-email {
+  grid-area: input-email;
+}
+
+.submit {
+  grid-area: submit;
+}
+
+
+.btn {
+  width: 100%;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.btn:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+
