@@ -19,8 +19,8 @@
   justify-content: center;
 }
 
-@import "card.scss";
-@import "aside.scss";
+@import "card";
+@import "../aside/aside";
 
 @media (max-width: $small-width) {
   .content-wrp{

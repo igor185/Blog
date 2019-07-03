@@ -1,15 +1,12 @@
 @import "reset.css";
 
-$max-width: 1200px;
-$content: 90%;
-$content-color: #7bbd77;
-$small-width:550px;
+@import "variables";
 
-@import 'header';
+@import 'header/header';
 
-@import "content";
+@import "main/content";
 
-@import "footer";
+@import "footer/footer";
 
 body{
   font-family: Helvetica, serif;

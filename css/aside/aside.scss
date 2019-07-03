@@ -40,28 +40,5 @@
   grid-area:submit;
 }
 
-.tags{
-  position: relative;
-  padding: 1%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.tag{
-  background-color: blue;
-  display: inline-block;
-  padding: .23em;
-  color: white;
-  position: relative;
-  margin: 2px 5px;
-}
-
-.tag span:before{
-  content: '';
-  position: absolute;
-  top: 0;
-  border: .73em solid transparent;
-  border-left: .7em solid blue;
-  left: -1.4em;
-  transform: rotate(-180deg);
-}
+@import "tag";
+@import "comment";
