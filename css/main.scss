@@ -12,6 +12,8 @@ body{
   font-family: Helvetica, serif;
   overflow-x: hidden;
   background-color: #E1E2E1;
+  display: grid;
+  grid-template-areas: "header" "content" "footer";
 }
 .logo {
   display: inline-block;

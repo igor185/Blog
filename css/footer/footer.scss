@@ -1,14 +1,18 @@
-footer {
+.footer {
   grid-area: footer;
   width: 100%;
-  background-color: #4671fb;
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #194be4), color-stop(50%, #6b8efb), color-stop(100%, #194be4));
+  max-width: $max-width;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
-
+  margin: 0 auto;
   div {
     margin: 5px 0;
   }
+}
+footer{
+  width: 100%;
+  background-color: #4671fb;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #194be4), color-stop(50%, #6b8efb), color-stop(100%, #194be4));
 }

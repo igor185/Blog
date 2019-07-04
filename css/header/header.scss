@@ -1,16 +1,23 @@
 @import "burger";
+
 header {
-  padding: 1%;
+  grid-area: header;
+  padding: 1% 5px;
   box-sizing: border-box;
   width: 100%;
   background-color: #4671fb;
-  background-image: -webkit-gradient(linear,left top,right top,color-stop(0%,#194be4),color-stop(50%,#6b8efb),color-stop(100%,#194be4));
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #194be4), color-stop(50%, #6b8efb), color-stop(100%, #194be4));
+}
+
+.header {
+  width: 100%;
+  max-width: $max-width;
+  margin: 0 auto;
+  position: relative;
 }
 
 .header-wrp {
-  width: $content;
-  margin: 0 auto;
-  max-width: $max-width;
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
@@ -24,7 +31,8 @@ header {
   flex-direction: column;
   justify-content: space-between;
 }
-.icons-wrp{
+
+.icons-wrp {
   .logo:first-child {
     margin-right: 20px;
   }
@@ -42,18 +50,18 @@ header {
   }
 }
 
-
 @media (max-width: $small-width) {
-  .menuToggle{
+
+  .menuToggle {
     display: block;
   }
-  .nav-wrp{
+  .nav-wrp {
     display: none;
   }
-  .logo-wrp{
+  .logo-wrp {
     margin: 0 auto;
   }
-  .searchBtn{
+  .searchBtn {
     display: block;
   }
 }

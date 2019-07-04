@@ -30,8 +30,9 @@
 .search{
   margin-top:$margin-top;
   display: grid;
-  grid-template-areas: "label" "input" "btn";
+  grid-template-areas: "label label" "input btn";
   grid-gap: 5px;
+  grid-template-columns: 50%;
 }
 .label-search{
   grid-area: label;

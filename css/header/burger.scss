@@ -10,7 +10,7 @@
 
 .menuToggle {
   display: none;
-  position: fixed;
+  position: absolute;
   top:5px;
   left: 5px;
 
@@ -79,10 +79,10 @@
 }
 
 .menu {
-  display: none;
+  display: block;
   position: fixed;
   top: 0;
-  left: 0;
+  left: -100%;
   width: 100%;
   padding: 125px 50px 50px;
 
@@ -90,12 +90,11 @@
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   transform-origin: 0 0;
-   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
-
+   //transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+  transition: 1.5s all ease;
   height: 100%;
   opacity: .95;
   box-sizing: border-box;
-  min-width: 300px;
 }
 
 .menu span.burgerItem {
@@ -105,7 +104,7 @@
 }
 
 .menuToggle input:checked ~ div.menu {
-  display: block;
+  left: 0;
 }
 
 .burger-wrp{

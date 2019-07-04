@@ -1,5 +1,7 @@
 .content-wrp {
-  width: $content;
+  grid-area: content;
+  width: 100%;
+  max-width: $max-width;
   margin: 2% auto;
   display: grid;
   grid-template-areas:
