@@ -29,6 +29,7 @@
   },
   "dependencies": {
     "cli": "^1.0.1",
+    "minimist": "1.2.3",
     "path": "^0.12.7",
     "webpack": "^4.35.2"
   }
